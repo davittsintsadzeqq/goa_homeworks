@@ -1,6 +1,10 @@
-namem  = "davit"
+name  = "davit"
 
 
 surname = "tsintsadze"
 
-print(name)
+height =   150.5
+
+age = 13
+
+print(name + " " + surname + " " + str(age) + " " + str(height))
