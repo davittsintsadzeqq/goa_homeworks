@@ -1,19 +1,33 @@
-print(True and True)
+print(10 and 10)
 
-print(True and False)
+print(10 and 23)
 
-print(False and False)
+print(23 and 23)
 
-print(False and True)
+print(23 and 10)
 
-print(False or False)
+print(23 or 23)
 
-print(True or True)
+print(10 or 10)
 
-print(False or True)
+print(23 or 10)
 
-print(True or False)
+print(10 or 23)
 
 
+print()
 
+print()
+
+print()
+
+print()
+
+print()
+
+print()
+
+print()
+
+print()
 
