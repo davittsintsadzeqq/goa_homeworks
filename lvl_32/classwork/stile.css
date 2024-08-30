@@ -1,0 +1,15 @@
+body{
+    font-family:Arial, sans-serif  ;
+    margin:0cap ;
+    padding: 0cap;
+    background:linear-gradient(#ff7abc, #ff7abc,#867dff) ;
+    
+}
+
+.img_deg{
+    height: 300px;
+    width: 400px;
+    padding: 0px;
+    margin: 10px;
+    border: 5px solid rgb(0, 238, 255);
+}
