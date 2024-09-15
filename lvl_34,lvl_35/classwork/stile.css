@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+
+.div { color: black;}
+.p { color: green; }
+.span { color: lightgray; }
+.h1 { color: yellow; }
+.Lp { color: red; }
+
+#h4 { color: lightblue; }
+#a { color: coral; }
+#H1 { color: cyan; }
+#p { color: darkblue; }
+#div {color: darkgreen;}

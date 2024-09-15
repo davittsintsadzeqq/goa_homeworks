@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+}
+
+#p1 {
+    color: rgb(252, 88, 170);
+    background-color: rgb(255, 216, 230);
+}
+
+#p2 {
+    color: rgb(77, 187, 101);
+    background-color: rgb(181, 255, 181);
+}
+
+#p3 {
+    color: rgb(65, 65, 255);
+    background-color: rgb(161, 203, 252);
+}
+
+#p4 {
+    color: rgb(23, 180, 141);
+    background-color: rgb(163, 247, 219);
+}
+
+#p5 {
+    color: rgb(243, 6, 6);
+    background-color: rgb(250, 146, 146);
+}
+
+#p6 {
+    color: rgb(197, 23, 250);
+    background-color: rgb(223, 167, 255);
+}
+
+#p7 {
+    color: rgb(255, 0, 221);
+    background-color: rgb(255, 160, 242);
+}
+
+#p8 {
+    color: rgb(211, 191, 13);
+    background-color: rgb(250, 244, 165);
+}
+
+#p9 {
+    color: rgb(253, 128, 56);
+    background-color: rgb(253, 183, 137);
+}
+
+#p10 {
+    color: rgb(2, 65, 138);
+    background-color: rgb(134, 166, 224);
+}
