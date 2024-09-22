@@ -1,0 +1,55 @@
+/*button{
+    color: skyblue;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border-radius: 50%;
+    border: 0;
+    font-size: 2em;
+}*/
+
+ /*body{
+   background-color: red;
+    background: linear-gradient(to right,black,red,green,yellow);
+}*/
+
+/*body{
+    background-image: url(https://cdn-imgix.headout.com/tour/19364/TOUR-IMAGE/a0f87f7e-434d-4c3c-9584-f7ee351d5f64-10432-dubai-img-worlds-of-adventure---uae-resident-offer-01.jpg?auto=format&w=713.0666666666667&h=458.4&q=90&fit=crop&ar=14%3A9&crop=faces);
+    background-repeat: no-repeat;
+    /* background-cover */
+    /*background-position: center;/*
+}
+h1{
+    color: beige;
+}/*
+/*
+
+background-repeat:
+
+1. repeat - სურატი გამეორდება x და y ღერძზე
+2. repeat-x - სურათი გამეორდება x ღერძზე
+3. repeat-y - სურათი გამეორდება y ღერძზე
+4. no-repeat - სურათი აღარ გამეორდება, იქნება მხოლოდ 1
+
+*/
+
+
+
+
+/* 
+background-size:
+
+1. cover - ვებსაიტის უკანა ფონზე ათავსებს სურათს მთლიანად
+2. contain - 
+*/
+
+
+ul {
+    color: red;
+    font-family: cursive;
+    /*list-style-type: georgian;
+    list-style-position: inside;
+    list-style-image: url("https://cdn-imgix.headout.com/tour/19364/TOUR-IMAGE/a0f87f7e-434d-4c3c-9584-f7ee351d5f64-10432-dubai-img-worlds-of-adventure---uae-resident-offer-01.jpg?auto=format&w=713.0666666666667&h=458.4&q=90&fit=crop&ar=14%3A9&crop=faces");
+
+    list-style: georgian inside none;*/
+}

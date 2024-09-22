@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    color: blueviolet;
+    background-color: blue;
+}
+
+button{
+    color: aqua;
+    background-color: yellow;
+    font-size: 200px;
+}
+
+.H{
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200px;
+    text-align: center;
+}
+
+.A{
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 200px;
+    text-align: center;
+}
+
+.C{
+    color: rgb(200, 76, 34);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200px;
+    text-align: center;
+}
+
+.a{
+    color: blueviolet;
+    background-color: aquamarine;
+    size: 200px;
+}
