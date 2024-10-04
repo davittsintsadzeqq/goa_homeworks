@@ -1,0 +1,33 @@
+body{
+    background-color: magenta;
+}
+
+#main{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    margin-left: 350px;
+}
+
+#FB, #TW, #GM{
+    height: 40px;
+    width: 40px;
+}
+
+#Submit{
+    width: 170px;
+    height: 20px;
+    background-color: magenta;
+    color: white;
+    border-radius: 20px;
+}
+
+input{
+    border: none;
+}
+
+a{
+    color: gray;
+    margin-left: 50px;
+}

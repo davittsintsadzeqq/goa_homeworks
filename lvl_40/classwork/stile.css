@@ -1,0 +1,13 @@
+input[type = "submit"]:active{
+    background-color: blue;
+    color: white;
+
+    border-radius: 10 px 5px 3px 10px;
+}
+
+input[type = "submit"]:hover{
+    background-color: rgb(5, 164, 255);
+    color: white;
+
+    border-radius: 10 px 5px 3px 10px;
+}
