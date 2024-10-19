@@ -1,0 +1,80 @@
+/* a:link - defines  the style for normal unvisited links. */
+/*a:link{
+    color: blueviolet;
+    font-weight: border;
+    font-family: cursive;
+    text-decoration: none;
+}*/
+
+/* a:visited - defines the style for visited links*/
+/*a:visited{
+    color: blueviolet;
+    font-weight: border;
+    font-family: cursive;
+    text-decoration: none;
+}*/
+
+/*a:active{
+    color: blueviolet;
+    font-weight: border;
+    font-family: cursive;
+    text-decoration: none;
+}*/
+
+/* a:hover - a link is hovered when the mouse is over it.*/
+
+/*a:hover{
+    color: blueviolet;
+    font-weight: border;
+    font-family: cursive;
+    text-decoration: none;
+}*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr, td {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+tr:nth-child(odd) {
+    background-color: lightseagreen;
+}
+
+tr:nth-child(even) {
+    background-color: sienna;
+}
+
+/* tr:nth-child(1) {
+    background-color: red;
+}
+
+tr:nth-child(2) {
+    background-color: green;
+}
+
+tr:nth-child(3) {
+    background-color: blue;
+}
+
+tr:nth-child(4) {
+    background-color: purple;
+}
+
+tr:nth-child(5) {
+    background-color: orangered;
+}
+
+tr:nth-child(6) {
+    background-color: rgb(225, 0, 221);
+}
+
+tr:nth-child(7) {
+    background-color: cadetblue;
+} */
