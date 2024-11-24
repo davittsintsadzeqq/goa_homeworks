@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img:hover{
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+div {
+    width: 350px;
+    height: 350px;
+    background-color: orange;
+    font-size: 3em;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    padding-top: 144px;
+    box-shadow: unset;
+}
+
+div:hover{
+    transform: scale(1.1);
+}
