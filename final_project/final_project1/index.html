@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GOA - Goal-Oriented Academy</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Theme Toggle -->
+  <div class="theme-toggle">
+    <button id="theme-toggle-btn" aria-label="Toggle dark mode">
+      <i class="fas fa-sun"></i>
+      <i class="fas fa-moon"></i>
+    </button>
+  </div>
+
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+      <div class="logo">
+        <h1>GOA</h1>
+      </div>
+      <nav>
+        <div class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#mentors">Mentors</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1 class="animate-on-scroll">Unlock Your Future with GOA</h1>
+      <p class="animate-on-scroll">Empowering students through personalized, practical, and goal-driven learning experiences</p>
+      <div class="cta-buttons animate-on-scroll">
+        <a href="#courses" class="btn btn-primary">Our Programs</a>
+        <a href="#contact" class="btn btn-secondary">Join Now</a>
+      </div>
+    </div>
+    <div class="hero-image animate-on-scroll">
+      <img src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Students collaborating">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="animate-on-scroll">About GOA</h2>
+        <p class="animate-on-scroll">Transforming education through practical skills and mentorship</p>
+      </div>
+      <div class="about-content">
+        <div class="about-text animate-on-scroll">
+          <h3>Our Mission</h3>
+          <p>To inspire and equip students with the skills and mindset needed to achieve their personal and professional goals in the digital age.</p>
+          <h3>Our Vision</h3>
+          <p>To build a global community of self-motivated learners who create, lead, and innovate in the fields of technology, design, and business.</p>
+        </div>
+        <div class="founder-profile animate-on-scroll">
+          <div class="founder-image">
+            <img src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Nika Keshelava">
+          </div>
+          <div class="founder-info">
+            <h3>Nika Keshelava</h3>
+            <p class="title">Founder</p>
+            <p class="quote">"We don't just teach skills—we build character, confidence, and creators."</p>
+          </div>
+        </div>
+      </div>
+      <div class="features">
+        <div class="feature-card animate-on-scroll">
+          <i class="fas fa-user-graduate"></i>
+          <h3>Personalized Learning</h3>
+          <p>Customized education tailored to your unique learning style and goals</p>
+        </div>
+        <div class="feature-card animate-on-scroll">
+          <i class="fas fa-laptop-code"></i>
+          <h3>Flexible Online Courses</h3>
+          <p>Learn at your own pace with accessible online resources</p>
+        </div>
+        <div class="feature-card animate-on-scroll">
+          <i class="fas fa-users"></i>
+          <h3>Professional Mentorship</h3>
+          <p>Guidance from industry experts to help you succeed</p>
+        </div>
+        <div class="feature-card animate-on-scroll">
+          <i class="fas fa-project-diagram"></i>
+          <h3>Real-world Projects</h3>
+          <p>Gain practical experience through hands-on projects</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses Section -->
+  <section id="courses" class="courses">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="animate-on-scroll">Programs We Offer</h2>
+        <p class="animate-on-scroll">Comprehensive courses designed to build real-world skills</p>
+      </div>
+      <div class="course-categories">
+        <button class="category-btn active" data-category="all">All</button>
+        <button class="category-btn" data-category="programming">Programming</button>
+        <button class="category-btn" data-category="design">Design</button>
+        <button class="category-btn" data-category="cloud">Cloud</button>
+        <button class="category-btn" data-category="business">Business</button>
+      </div>
+      <div class="course-grid">
+        <!-- Programming Courses -->
+        <div class="course-card animate-on-scroll" data-category="programming">
+          <div class="course-image">
+            <img src="https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Python Programming">
+            <div class="course-badge">Programming</div>
+          </div>
+          <div class="course-content">
+            <h3>Python Programming</h3>
+            <p>From basics to advanced concepts, learn Python programming for various applications</p>
+            <div class="course-details">
+              <span><i class="fas fa-clock"></i> 12 months</span>
+              <span><i class="fas fa-money-bill"></i> 170 GEL/month</span>
+            </div>
+            <button class="btn btn-primary enroll-btn">Enroll Now</button>
+          </div>
+        </div>
+        <div class="course-card animate-on-scroll" data-category="programming">
+          <div class="course-image">
+            <img src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="JavaScript & Web Development">
+            <div class="course-badge">Programming</div>
+          </div>
+          <div class="course-content">
+            <h3>JavaScript & Web Development</h3>
+            <p>Master JavaScript and build responsive, interactive websites</p>
+            <div class="course-details">
+              <span><i class="fas fa-clock"></i> 12 months</span>
+              <span><i class="fas fa-money-bill"></i> 170 GEL/month</span>
+            </div>
+            <button class="btn btn-primary enroll-btn">Enroll Now</button>
+          </div>
+        </div>
+        <!-- Design Courses -->
+        <div class="course-card animate-on-scroll" data-category="design">
+          <div class="course-image">
+            <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Adobe Photoshop & Illustrator">
+            <div class="course-badge">Design</div>
+          </div>
+          <div class="course-content">
+            <h3>Adobe Photoshop & Illustrator</h3>
+            <p>Create stunning graphics and designs with industry-standard tools</p>
+            <div class="course-details">
+              <span><i class="fas fa-clock"></i> 6 months</span>
+              <span><i class="fas fa-money-bill"></i> 290 GEL/month</span>
+            </div>
+            <button class="btn btn-primary enroll-btn">Enroll Now</button>
+          </div>
+        </div>
+        <div class="course-card animate-on-scroll" data-category="design">
+          <div class="course-image">
+            <img src="https://images.pexels.com/photos/2194062/pexels-photo-2194062.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="DaVinci Resolve Video Editing">
+            <div class="course-badge">Design</div>
+          </div>
+          <div class="course-content">
+            <h3>DaVinci Resolve Video Editing</h3>
+            <p>Learn professional video editing, color grading, and effects</p>
+            <div class="course-details">
+              <span><i class="fas fa-clock"></i> 6 months</span>
+              <span><i class="fas fa-money-bill"></i> 290 GEL/month</span>
+            </div>
+            <button class="btn btn-primary enroll-btn">Enroll Now</button>
+          </div>
+        </div>
+        <!-- Cloud Courses -->
+        <div class="course-card animate-on-scroll" data-category="cloud">
+          <div class="course-image">
+            <img src="https://images.pexels.com/photos/1181356/pexels-photo-1181356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="AWS Certification">
+            <div class="course-badge">Cloud</div>
+          </div>
+          <div class="course-content">
+            <h3>AWS Certification</h3>
+            <p>Prepare for AWS certification and master cloud services</p>
+            <div class="course-details">
+              <span><i class="fas fa-clock"></i> 3 months</span>
+              <span><i class="fas fa-money-bill"></i> 390 GEL/month</span>
+            </div>
+            <button class="btn btn-primary enroll-btn">Enroll Now</button>
+          </div>
+        </div>
+        <!-- Business Courses -->
+        <div class="course-card animate-on-scroll" data-category="business">
+          <div class="course-image">
+            <img src="https://images.pexels.com/photos/6476589/pexels-photo-6476589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Digital Marketing">
+            <div class="course-badge">Business</div>
+          </div>
+          <div class="course-content">
+            <h3>Digital Marketing</h3>
+            <p>Master SEO, social media, email marketing, and more</p>
+            <div class="course-details">
+              <span><i class="fas fa-clock"></i> 6 months</span>
+              <span><i class="fas fa-money-bill"></i> 290 GEL/month</span>
+            </div>
+            <button class="btn btn-primary enroll-btn">Enroll Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mentors Section -->
+  <section id="mentors" class="mentors">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="animate-on-scroll">Meet the Mentors</h2>
+        <p class="animate-on-scroll">Learn from industry professionals with years of experience</p>
+      </div>
+      <div class="mentor-grid">
+        <div class="mentor-card animate-on-scroll">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src="https://images.pexels.com/photos/5905866/pexels-photo-5905866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Mentor 1">
+              <h3>Alex Johnson</h3>
+              <p>Senior Developer</p>
+            </div>
+            <div class="card-back">
+              <h3>Alex Johnson</h3>
+              <p>10+ years of experience in Python and JavaScript development. Led teams at major tech companies.</p>
+              <div class="social-links">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mentor-card animate-on-scroll">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src="https://images.pexels.com/photos/3770486/pexels-photo-3770486.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Mentor 2">
+              <h3>Sarah Miller</h3>
+              <p>UX/UI Designer</p>
+            </div>
+            <div class="card-back">
+              <h3>Sarah Miller</h3>
+              <p>Award-winning designer with experience at top design agencies. Expert in Adobe Creative Suite and UI/UX principles.</p>
+              <div class="social-links">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mentor-card animate-on-scroll">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src="https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Mentor 3">
+              <h3>David Chen</h3>
+              <p>AWS Solutions Architect</p>
+            </div>
+            <div class="card-back">
+              <h3>David Chen</h3>
+              <p>AWS Certified Solutions Architect with extensive experience in cloud infrastructure and DevOps.</p>
+              <div class="social-links">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mentor-card animate-on-scroll">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src="https://images.pexels.com/photos/5669619/pexels-photo-5669619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Mentor 4">
+              <h3>Maya Patel</h3>
+              <p>Marketing Strategist</p>
+            </div>
+            <div class="card-back">
+              <h3>Maya Patel</h3>
+              <p>Digital marketing expert with experience at global brands. Specializes in growth strategies and analytics.</p>
+              <div class="social-links">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="achievements">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="animate-on-scroll">Success Stories</h2>
+        <p class="animate-on-scroll">Celebrating our students' accomplishments and milestones</p>
+      </div>
+      <div class="stats-container">
+        <div class="stat-card animate-on-scroll">
+          <i class="fas fa-user-graduate"></i>
+          <div class="stat-number" data-target="500">0</div>
+          <p>Students Enrolled</p>
+        </div>
+        <div class="stat-card animate-on-scroll">
+          <i class="fas fa-project-diagram"></i>
+          <div class="stat-number" data-target="1250">0</div>
+          <p>Projects Completed</p>
+        </div>
+        <div class="stat-card animate-on-scroll">
+          <i class="fas fa-certificate"></i>
+          <div class="stat-number" data-target="300">0</div>
+          <p>Certificates Earned</p>
+        </div>
+        <div class="stat-card animate-on-scroll">
+          <i class="fas fa-briefcase"></i>
+          <div class="stat-number" data-target="85">0</div>
+          <p>Successful Careers</p>
+        </div>
+      </div>
+      <div class="testimonials-container">
+        <h3 class="animate-on-scroll">What Our Students Say</h3>
+        <div class="testimonial-slider">
+          <div class="testimonial-slide active">
+            <div class="testimonial-content">
+              <p>"GOA transformed my career path. I went from knowing nothing about programming to landing a junior developer role in just 9 months."</p>
+              <div class="testimonial-author">
+                <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Testimonial Author">
+                <div>
+                  <h4>Natia K.</h4>
+                  <p>Web Developer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-slide">
+            <div class="testimonial-content">
+              <p>"The personalized mentorship at GOA made all the difference. My mentor guided me through every challenge and celebrated every victory."</p>
+              <div class="testimonial-author">
+                <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Testimonial Author">
+                <div>
+                  <h4>Giorgi M.</h4>
+                  <p>UX Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-slide">
+            <div class="testimonial-content">
+              <p>"After completing the AWS certification course, I received three job offers. GOA didn't just teach me skills—they prepared me for a successful career."</p>
+              <div class="testimonial-author">
+                <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Testimonial Author">
+                <div>
+                  <h4>Ana D.</h4>
+                  <p>Cloud Engineer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-controls">
+          <button class="prev-btn" aria-label="Previous testimonial"><i class="fas fa-chevron-left"></i></button>
+          <div class="testimonial-indicators">
+            <span class="indicator active"></span>
+            <span class="indicator"></span>
+            <span class="indicator"></span>
+          </div>
+          <button class="next-btn" aria-label="Next testimonial"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="animate-on-scroll">Get in Touch</h2>
+        <p class="animate-on-scroll">Have questions? Reach out to us</p>
+      </div>
+      <div class="contact-container">
+        <div class="contact-info animate-on-scroll">
+          <div class="contact-detail">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Location</h4>
+              <p>Tbilisi, Georgia</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p>goalorientedacademy@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h4>Phone</h4>
+              <p>+995 555 123 456</p>
+            </div>
+          </div>
+          <div class="social-media">
+            <h4>Connect With Us</h4>
+            <div class="social-icons">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+              <a href="#" aria-label="Discord"><i class="fab fa-discord"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form animate-on-scroll">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+              <span class="error-message"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+              <span class="error-message"></span>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required>
+              <span class="error-message"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+              <span class="error-message"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="faq">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="animate-on-scroll">Frequently Asked Questions</h2>
+        <p class="animate-on-scroll">Find answers to common questions</p>
+      </div>
+      <div class="faq-container">
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question">
+            <h3>How do I enroll in a course?</h3>
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="faq-answer">
+            <p>To enroll in a course, click the "Enroll Now" button on the course page and complete the registration form. Our team will contact you with further instructions.</p>
+          </div>
+        </div>
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question">
+            <h3>What are the payment options?</h3>
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="faq-answer">
+            <p>We accept various payment methods, including credit/debit cards and bank transfers. Payment is due monthly, and we offer discounts for full course payments.</p>
+          </div>
+        </div>
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question">
+            <h3>Are there any prerequisites for courses?</h3>
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Most beginner courses have no prerequisites. For advanced courses, basic knowledge of the subject may be required. Each course page includes specific prerequisite information.</p>
+          </div>
+        </div>
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question">
+            <h3>How are classes conducted?</h3>
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Classes are conducted online via Discord. Live sessions include lectures, hands-on exercises, and Q&A. Recorded sessions are available for review, and homework assignments reinforce learning.</p>
+          </div>
+        </div>
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question">
+            <h3>Are scholarships available?</h3>
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Yes, we offer limited scholarships based on merit and need. Contact us for more information about scholarship opportunities and the application process.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section id="newsletter" class="newsletter">
+    <div class="container">
+      <div class="newsletter-content">
+        <div class="newsletter-text animate-on-scroll">
+          <h2>Stay Updated</h2>
+          <p>Subscribe to our newsletter for the latest courses, events, and educational resources</p>
+        </div>
+        <form id="newsletterForm" class="newsletter-form animate-on-scroll">
+          <input type="email" placeholder="Your email address" required>
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>GOA</h2>
+          <p>Goal-Oriented Academy</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h3>Navigation</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#courses">Courses</a></li>
+              <li><a href="#mentors">Mentors</a></li>
+              <li><a href="#achievements">Achievements</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Programs</h3>
+            <ul>
+              <li><a href="#courses">Programming</a></li>
+              <li><a href="#courses">Design</a></li>
+              <li><a href="#courses">Cloud Services</a></li>
+              <li><a href="#courses">Business</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Legal</h3>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Goal-Oriented Academy. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Enrollment Modal -->
+  <div id="enrollmentModal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h2>Enroll in <span id="courseTitle"></span></h2>
+      <form id="enrollmentForm">
+        <div class="form-group">
+          <label for="enrollName">Name</label>
+          <input type="text" id="enrollName" name="enrollName" required>
+        </div>
+        <div class="form-group">
+          <label for="enrollEmail">Email</label>
+          <input type="email" id="enrollEmail" name="enrollEmail" required>
+        </div>
+        <div class="form-group">
+          <label for="enrollPhone">Phone</label>
+          <input type="tel" id="enrollPhone" name="enrollPhone" required>
+        </div>
+        <div class="form-group">
+          <label for="enrollFrequency">Class Frequency</label>
+          <select id="enrollFrequency" name="enrollFrequency">
+            <option value="once">Once a week (170 GEL/month)</option>
+            <option value="twice">Twice a week (290 GEL/month)</option>
+            <option value="thrice">Three times a week (390 GEL/month)</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit Application</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button id="backToTopBtn" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
